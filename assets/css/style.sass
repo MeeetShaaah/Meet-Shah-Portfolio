@@ -1,0 +1,6 @@
+@for $i from 1 through 100 {
+  .c100.p#{$i} .bar {
+    $deg: ($i - 1) * 3.6; /* Calculate the rotation degree based on progress percentage */
+    transform: rotate(#{$deg}deg);
+  }
+}
