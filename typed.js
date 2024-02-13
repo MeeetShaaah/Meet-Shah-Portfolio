@@ -325,7 +325,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (this.arrayPos === this.strings.length - 1) {
 	        // callback that occurs on the last typed string
 	        this.complete();
-	        // quit if we wont loop back
+	        // quit if we won't loop back
 	        if (this.loop === false || this.curLoop === this.loopCount) {
 	          return;
 	        }
